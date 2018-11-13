@@ -1,0 +1,71 @@
+button {
+  background-color: rgb(29, 154, 204);
+  color: #fff;
+  padding: 1em 1em;
+  min-width: 8em;
+  margin-top: .6em;
+  margin-left: .6em;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  outline: none;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+button:hover {
+  background-color: rgb(26, 68, 160);
+  box-shadow: -1px 1px 14px rgb(114, 114, 119);
+}
+
+button.green  {
+  background-color: rgb(102, 201, 102);
+  color: #fff;
+  padding: 1em 1em;
+  min-width: 8em;
+  margin-top: .6em;
+  margin-left: .6em;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button.green:hover {
+  background-color: rgb(22, 102, 62);
+  box-shadow: -1px 1px 14px rgb(114, 114, 119);
+}
+
+button.gray  {
+  background-color: rgb(201, 201, 201);
+  color: #000;
+  padding: 1em 1em;
+  min-width: 8em;
+  margin-top: .6em;
+  margin-left: .6em;
+  border: none;
+  border-radius: .4em;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button.gray:hover {
+  background-color: rgb(73, 73, 73);
+  color: #fff;
+  box-shadow: -1px 1px 14px rgb(114, 114, 119);
+}
+
+button.close:hover {
+  
+  border-radius: 50px;
+}
+
+button:disabled {
+  background-color: rgb(201,201,201)
+}
+
+button:hover:disabled {
+  box-shadow: 0 0 0 rgb(114, 114, 119);
+  cursor: default;
+}
