@@ -9,7 +9,7 @@ class Trash extends Component {
     // e.target.style.top = 152+"px";
     
     // // e.target.style.bottom = 0
-    console.log('ffff')
+    console.log(e.target)
   }
   render () {
     return(

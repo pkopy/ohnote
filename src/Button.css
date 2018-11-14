@@ -12,7 +12,7 @@ button {
   outline: none;
   position: fixed;
   bottom: 1em;
-  right: 1em;
+  right: 5em;
 }
 button:hover {
   background-color: rgb(26, 68, 160);

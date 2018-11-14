@@ -8,7 +8,7 @@ class NotePanel extends Component {
     const {showPanel} = this.props;
     const opacity = "0.5";
     return(
-      <div className="note_panel" style={showPanel ? {opacity:"0.5"}:{opacity:"0"}}>
+      <div className="note_panel" style={showPanel ? {opacity:"1"}:{opacity:"0"}}>
         
         <Icon 
           icon={'trash.svg'}

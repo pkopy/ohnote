@@ -1,19 +1,19 @@
 .icon {
-  width: 24px;
+  width: 20px;
   z-index: 10;
-  height: 24px;
-  opacity: .5;
-  padding: 2px;
+  height: 20px;
+  /* opacity: .5; */
+  padding: 0 10px ;
   transition: height 1s;
   /* position: absolute; */
   /* top: -150px; */
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 .icon:hover {
-  opacity: 1;
+  opacity: .6;
   z-index: 10;
-  padding: 3px;
-  background-color: aliceblue;
+  /* padding: 3px; */
+  /* background-color: aliceblue; */
   /* height: 150px; */
   /* transition: 6s; */
   /* background-color: blue */

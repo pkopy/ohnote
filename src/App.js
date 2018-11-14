@@ -21,9 +21,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="notes_container">
+        
           <Note 
-            note={{backgroundColor:'red'}}
+            note={{backgroundColor:'#fff'}}
           />
           <Note />
           <Note 
@@ -35,8 +35,10 @@ class App extends Component {
           />
           <Note />
 
-        </div>
         
+        {/* <Trash 
+        icon={'trash.svg'}
+        /> */}
 
         <Button 
           text={'Add note'}
