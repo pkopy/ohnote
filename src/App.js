@@ -24,6 +24,10 @@ class App extends Component {
         
           <Note 
             note={{backgroundColor:'#fff'}}
+
+
+
+            
           />
           <Note />
           <Note 
