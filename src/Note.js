@@ -8,7 +8,7 @@ class Note extends Component {
     showPanel : false
   }
   setShowPanel = (e) => {
-    console.log('xxx')
+    // console.log('xxx')
     let showPanel = !this.state.showPanel
     this.setState({showPanel})
     // e.target.addEventListener('mousedown', this.dragElement)
